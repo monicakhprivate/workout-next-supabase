@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#To prevent from pushing our Supabase url and API keys to Github repo when deploying
+.env.local
